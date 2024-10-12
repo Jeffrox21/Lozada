@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JeffWorld</title>
+    <link rel="stylesheet" href="{% static 'css/MyApp.css'  %}">
+    <link rel="icon" href="{% static 'images/Jeffcon.ico'%}">
+</head>
+<body>
+
+{% include 'app/navbar.html' %}
+{% block content %}
+<div class="backround"></div>
+{% endblock content %}
+</body>
+</html>
